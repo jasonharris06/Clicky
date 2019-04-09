@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jasonharris06/clicky.git/precache-manifest.737fb68c076443f14ef03714a582e540.js"
+  "/clicky/precache-manifest.fb5e877c6f2c7e006fcae637dc91fb41.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jasonharris06/clicky.git/index.html", {
+workbox.routing.registerNavigationRoute("/clicky/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
